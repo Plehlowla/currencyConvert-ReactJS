@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    background-color: #333;
+}
+
+h1 {
+    margin: 0;
+    margin-bottom: .5rem;
+    font-size: 50px;
+    margin-left: 140px;
+    text-decoration: underline;
+    color: #fff;
+}
+
+.input {
+    border: 2px solid #fff;
+    border-radius: .3em;
+    padding: .25rem;
+    width: 7em;
+    font-size: 40px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+select {
+    margin-left: .5rem;
+    font-size: 40px;
+    padding: .1rem;
+    border-radius: .3em;
+    width: 3.5em;
+    text-align: center;
+}
+option {
+    margin-left: .5rem;
+    font-size: 40px;
+    padding: .1rem;
+    border-radius: .3em;
+    width: 3.5em;
+    text-align: center; 
+}
+
+.equals {
+    font-weight: bold;
+    font-size: 5rem;
+    color: #fff;
+}
+
+@media screen and (max-width: 650px) {
+    h1 {
+        margin-left: 110px;
+    }
+}
